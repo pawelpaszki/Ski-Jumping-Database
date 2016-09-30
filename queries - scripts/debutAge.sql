@@ -1,0 +1,2 @@
+SELECT (ROUND(AVG((first_start_date - date_of_birth) / 365))||' YEARS OF AGE') AS "AVG WC DEBUT AGE", (ROUND(MIN(first_start_date - date_of_birth) / 365)||' YEARS OF AGE') AS "MIN WC DEBUT AGE", (ROUND(MAX(first_start_date - date_of_birth) / 365)||' YEARS OF AGE') AS "MAX WC DEBUT AGE"
+  FROM SKI_JUMPERS;
